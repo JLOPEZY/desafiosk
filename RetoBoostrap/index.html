@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Reto Bootstrap</title>
+</head>
+
+<body>
+  <div class="container mt-4">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <!-- <div class="box p-4 bg-white text-black">
+                    <h1>One</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, asperiores.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>-->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">DEV Community is a community of 822,529 amazing developers</h5>
+            <p class="card-text">We're a place where coders share, stay up-to-date and grow their careers.</p>
+            <!--<a href="#" class="btn btn-primary">Create account</a><br>-->
+            <button type="button" class="btn btn-outline-primary">Primary</button><br>
+            <button type="button" class="btn btn-light">Light</button>
+          </div>
+        </div><br>
+        <div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-house-door" viewBox="0 0 16 16">
+                <path
+                  d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+              </svg>
+              <a href="#"> Home </a>
+            </li>
+            <li class="list-group-item">Listing</li>
+            <li class="list-group-item">Podcast</li>
+            <li class="list-group-item">Videos</li>
+            <li class="list-group-item">Tags</li>
+            <li class="list-group-item">FAQ</li>
+            <li class="list-group-item">Forem Shop</li>
+            <li class="list-group-item">Sponsors</li>
+            <li class="list-group-item">About</li>
+            <li class="list-group-item">Contact</li>
+          </ul><br>
+          <h5>Other</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Code of conduct</li>
+            <li class="list-group-item">Privacy Policy</li>
+            <li class="list-group-item">Terms of use</li>
+          </ul>
+        </div><br>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+            viewBox="0 0 16 16">
+            <path
+              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch"
+            viewBox="0 0 16 16">
+            <path
+              d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z" />
+            <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z" />
+          </svg>
+        </div><br>
+        <div>
+          <!--"list-group list-group-flush"-->
+          <h5>Popular tags</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">#javascript</li>
+            <li class="list-group-item">#webdev</li>
+            <li class="list-group-item">#beginners</li>
+            <li class="list-group-item">#tutorial</li>
+            <li class="list-group-item">#react</li>
+            <li class="list-group-item">#python</li>
+            <li class="list-group-item">#productivity</li>
+            <li class="list-group-item">#css</li>
+            <li class="list-group-item">#devops</li>
+          </ul>
+        </div><br>
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--fIs7T4ga--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://jess.forem.lol/remoteimages/uploads/articles/9ga7i09w99yubqm4fxrv.png"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>Calling all early-career developers & coding mentors!</strong>
+              Join CodeNewbie Community: a supportive space for coding newbies to connect & express themselves. Get in
+              on the fun!</p>
+          </div>
+        </div><br>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">DEV runs on 100% open source code known as Forem.
+              Contribute to the codebase or host your own!
+              Check these out! :apuntando_hacia_abajo:</p>
+            <a href="#" class="link-primary">Main Forem Repo</a><br>
+            <a href="#" class="link-primary">Self-Host Instructions</a>
+          </div>
+        </div>
+      </div>
+      <!-- inicio yusef  -->
+
+      <div class="col-lg-5">
+        <button type="button" class="btn btn-light"><b> Relevant </b></button>
+        <button type="button" class="btn btn-light">Latest</button>
+        <button type="button" class="btn btn-light">Top</button>
+
+        <div class="card">
+          <div class="card-body">
+
+            <!-- LOGO -->
+            <div class="logodev"> <img alt="The DEV Team logo"
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--mbsgKaXh--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/1/0213bbaa-d5a1-4d25-9e7a-10c30b455af0.png"
+                width="25" height="26" class="crayons-logo__image" loading="lazy"></div>
+
+            <div class="pinned color-accent-brand fw-bold" data-testid="pinned-article">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"
+                class="mr-1 align-text-bottom color-accent-brand">
+                <path
+                  d="M22.314 10.172l-1.415 1.414-.707-.707-4.242 4.242-.707 3.536-1.415 1.414-4.242-4.243-4.95 4.95-1.414-1.414 4.95-4.95-4.243-4.242 1.414-1.415L8.88 8.05l4.242-4.242-.707-.707 1.414-1.415z">
+                </path>
+              </svg> Pinned
+            </div>
+            <!-- ENLACES -->
+            <div class="enlaces">
+              <button type="button" class="btn btn-light">
+                <H6> Ben Halpern </H6>
+              </button>
+              <div class="letra">
+                <H6>for</H6>
+              </div>
+              <button type="button" class="btn btn-light">
+                <H6>The DEV Team </H6>
+              </button>
+            </div>
+
+            <!-- DEEGRAM RELOJ -->
+            <br>
+            <div class="reloj">
+              <a href="/#/deepgram-hackathon-reminder-2ig0"
+                data-preload-image="https://res.cloudinary.com/practicaldev/image/fetch/s--KoZsgb2P--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eni908xa8i6l6x6kkeyf.png"
+                id="article-link-1033668">
+                <b> Deepgram Hackathon Reminder ⏰</b>
+            </div>
+            </a>
+            <!-- HASHTAG -->
+
+            <button type="button" class="btn btn-outline-secondary">
+              <h6> #deepgram</h6>
+            </button>
+            <button type="button" class="btn btn-outline-secondary">
+              <h6> #hackwithdg </h6>
+            </button>
+            <button type="button" class="btn btn-outline-secondary">
+              <h6> #ai </h6>
+            </button>
+
+            <!-- REACTIONS Y COMMENTS  -->
+            <div class="links">
+              <br><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img"
+                aria-labelledby="a7hmxkzr7syy7k7h5fwhyt4r4ac0ao86" class="crayons-icon">
+                <title id="a7hmxkzr7syy7k7h5fwhyt4r4ac0ao86">Reactions</title>
+                <path
+                  d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z">
+                </path>
+              </svg>
+              <a href="#" class="link-secondary">27 reactions</a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img"
+                aria-labelledby="a751t7pdey2sz57u2z4kkabp0dxhylz" class="crayons-icon">
+                <title id="a751t7pdey2sz57u2z4kkabp0dxhylz">Comments</title>
+                <path
+                  d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z">
+                </path>
+              </svg>
+              <a href="#" class="link-secondary">10 comments</a>
+            </div>
+            <!-- BOTON GUARDAR -->
+            <div class="save">
+              <div class="letra"> 2 min read </div>
+              <button>Save</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img src="./img/cast.png" class="img-fluid" alt="...">
+          </div>
+          <!-- CARD2 LOGO -->
+          <div class="logodev2">
+            <img
+              src="https://res.cloudinary.com/practicaldev/image/fetch/s--mCoY1nKl--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/549522/24a65dcd-5326-464c-bc04-1746c951c28d.jpg"
+              width="25" height="26" alt="castai profile" class="crayons-avatar__image" loading="lazy">
+          </div>
+          <div class="enlaces2">
+            <button type="button" class="btn btn-light">
+              <H6> Cast AI </H6>
+            </button>
+          </div>
+
+          <div class="mar25"> Mar 25 </div>
+          <!-- LINK HOW -->
+          <div class="link2">
+            <a href="/castai/how-to-win-the-cloud-operations-game-with-kubernetes-automation-and-cut-costs-in-the-process-37h5"
+              data-preload-image="https://res.cloudinary.com/practicaldev/image/fetch/s--bUOPQ1F8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q4jwkoahih3zz9a89phu.png"
+              id="article-link-1034257">
+              <b> How to Win the Cloud Operations Game with Kubernetes Automation and Cut Costs in the Process</b>
+            </a>
+          </div>
+
+          <!-- HASHTAG -->
+          <div class="hashtag2">
+            <button type="button" class="btn btn-outline-secondary">
+              <h6> #kubernetes</h6>
+            </button>
+            <button type="button" class="btn btn-outline-secondary">
+              <h6> #cloud </h6>
+            </button>
+            <button type="button" class="btn btn-outline-secondary">
+              <h6> #devops </h6>
+            </button>
+          </div>
+
+          <!-- REACTIONS Y COMMENTS  -->
+          <div class="comentarios2">
+            <br><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img"
+              aria-labelledby="a7hmxkzr7syy7k7h5fwhyt4r4ac0ao86" class="crayons-icon">
+              <title id="a7hmxkzr7syy7k7h5fwhyt4r4ac0ao86">Reactions</title>
+              <path
+                d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z">
+              </path>
+            </svg>
+            <a href="#" class="link-secondary">54 reactions</a>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img"
+              aria-labelledby="a751t7pdey2sz57u2z4kkabp0dxhylz" class="crayons-icon">
+              <title id="a751t7pdey2sz57u2z4kkabp0dxhylz">Comments</title>
+              <path
+                d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z">
+              </path>
+            </svg>
+            <a href="#" class="link-secondary">Add comment</a>
+          </div>
+          <!-- BOTON GUARDAR 2-->
+          <div class="save2">
+            <div class="letra"> 5 min read </div>
+            <button>Save</button>
+          </div>
+          <br>
+        </div>
+
+        <!-- CARD3 -->
+        <div class="card">
+          <div class="card-body">
+            <!-- LOGO -->
+            <div class="logodev3">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--Ea1OGrCb--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/1/f451a206-11c8-4e3d-8936-143d0a7e65bb.png"
+                width="25" height="26" alt="ben profile" class="crayons-avatar__image" loading="lazy">
+            </div>
+
+            <div class="enlaces3">
+              <button type="button" class="btn btn-light">
+                <H6> Ben Halpern </H6>
+              </button>
+            </div>
+            <div class="fecha2"> Mar 25 </div>
+            <!-- LINK3 -->
+            <div class="link3">
+              <a href="/ben/how-do-you-start-your-work-day-4l6m"
+                data-preload-image="https://res.cloudinary.com/practicaldev/image/fetch/s--MR2j64O9--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/debfaxqq0r9j9so0b82r.png"
+                id="article-link-1034283">
+                <b> How do you start your work day?</b>
+              </a>
+            </div>
+            <!-- HASHTAG -->
+            <div class="hashtag3">
+              <button type="button" class="btn btn-outline-secondary">
+                <h6> #kubernetes</h6>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <h6> #cloud </h6>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <h6> #devops </h6>
+              </button>
+            </div>
+            <!-- REACTIONS Y COMMENTS  -->
+            <div class="comentarios3">
+              <br><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img"
+                aria-labelledby="a7hmxkzr7syy7k7h5fwhyt4r4ac0ao86" class="crayons-icon">
+                <title id="a7hmxkzr7syy7k7h5fwhyt4r4ac0ao86">Reactions</title>
+                <path
+                  d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z">
+                </path>
+              </svg>
+              <a href="#" class="link-secondary">26 reactions</a>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img"
+                aria-labelledby="a751t7pdey2sz57u2z4kkabp0dxhylz" class="crayons-icon">
+                <title id="a751t7pdey2sz57u2z4kkabp0dxhylz">Comments</title>
+                <path
+                  d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z">
+                </path>
+              </svg>
+              <a href="#" class="link-secondary">18 comments</a>
+            </div>
+
+            <!-- BOTON GUARDAR 2-->
+            <div class="save3">
+              <div class="letra"> 5 min read </div>
+              <button>Save</button>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- CARD4 -->
+        <div class="card">
+          <div class="card-body">
+            <!-- LOGO -->
+            <div class="logodev3">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--EnrFKV7w--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/836282/a7a87915-db40-41b3-8d34-5c2831257f87.jpeg"
+                width="25" height="26" alt="westernal profile" class="crayons-avatar__image" loading="lazy">
+            </div>
+            <div class="enlaces4">
+              <button type="button" class="btn btn-light">
+                <H6> ali navidi </H6>
+              </button>
+            </div>
+            <div class="fecha3"> Mar 25 </div>
+            <!-- LINK 4-->
+            <div class="link4">
+              <a href="/westernal/how-do-you-write-your-css-3pg2"
+                data-preload-image="https://res.cloudinary.com/practicaldev/image/fetch/s--7w0azL6s--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z3vls3bzj3p1tc8vy5xc.png"
+                id="article-link-1034292">
+                <b> How do you write your css?</b>
+              </a>
+            </div>
+
+            <!-- HASHTAG -->
+            <div class="hashtag4">
+              <button type="button" class="btn btn-outline-secondary">
+                <h6> #discuss</h6>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <h6> #css </h6>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <h6> #tailwindcss </h6>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <h6> #bootstrap </h6>
+              </button>
+            </div>
+
+            <!-- REACTIONS Y COMMENTS  -->
+            <div class="comentarios3">
+              <br><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img"
+                aria-labelledby="a7hmxkzr7syy7k7h5fwhyt4r4ac0ao86" class="crayons-icon">
+                <title id="a7hmxkzr7syy7k7h5fwhyt4r4ac0ao86">Reactions</title>
+                <path
+                  d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z">
+                </path>
+              </svg>
+              <a href="#" class="link-secondary">16 reactions</a>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img"
+                aria-labelledby="a751t7pdey2sz57u2z4kkabp0dxhylz" class="crayons-icon">
+                <title id="a751t7pdey2sz57u2z4kkabp0dxhylz">Comments</title>
+                <path
+                  d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z">
+                </path>
+              </svg>
+              <a href="#" class="link-secondary">12 comments</a>
+            </div>
+            <!-- BOTON GUARDAR 2-->
+            <div class="save3">
+              <div class="letra"> 1 min read </div>
+              <button>Save</button>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+
+            
+
+</body>
+
+</html>

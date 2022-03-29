@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+
+.container {
+    outline: solid black;
+    padding: 1rem;
+
+     }
+
+
+     .col {
+        outline: solid none;
+        min-height: 500px;
+    }
+    
+   
+        
+   .logo{
+       width: 40px;
+       
+   }
+    
+
+
+   ul{
+       list-style: none;
+       
+   }
+
+   .navLink {
+       color: white;
+       text-decoration: white;
+   }
+
+   a:link {
+    color: white;
+  }
+
+    nav{
+      color: white;
+      
+    }
+
+    .estrella{
+        margin-left: 100%;
+        margin-top: -5%;
+        
+    }
+
+    .icono{
+        margin-bottom: -4%;
+              
+    }
+
+    .card-title{
+        margin-left: 6%;
+    }
+
+    .card-body{
+        background-color: black;
+    }
+
+    .card-header{
+        text-align: center;
+        color: blue;
+    }
+
+    
+   
+
+    
+   
+
+   
